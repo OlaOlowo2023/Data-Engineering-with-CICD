@@ -2,9 +2,9 @@
 
 This End-to-End Data Engineering Project focuses on designing, building, and deploying a complete data pipeline that transforms raw data into actionable insights. The project covers the full lifecycle of data engineering, including data ingestion, storage, processing, transformation, and visualization.
 
-The pipeline begins with extracting data from diverse sources (e.g., APIs, databases, or files), followed by data cleansing and transformation using tools such as Apache Spark or SQL. Processed data is then loaded into a data warehouse (e.g., Snowflake, BigQuery, or Amazon Redshift) for efficient querying and analytics. Automation and orchestration are implemented using tools like Apache Airflow or Prefect to ensure reliability and scalability.
+The pipeline begins with extracting data from diverse sources (e.g., APIs, databases, or files), followed by data cleansing and transformation using tools such as Apache Spark and SQL. Processed data is then loaded into a data warehouse (Amazon Redshift) for efficient querying and analytics. Automation and orchestration are implemented using tools like Apache Airflow and also Prefect to ensure reliability and scalability.
 
-The final component of the project includes building dashboards or reports using BI tools such as Tableau, Power BI, or Looker to enable stakeholders to make data-driven decisions. Throughout the project, best practices in data modeling, version control, security, and monitoring are applied to ensure a robust and maintainable architecture.
+The final component of the project includes building dashboards and reports using BI tools such as Tableau and Power BI to enable stakeholders to make data-driven decisions. Throughout the project, best practices in data modeling, version control, security, and monitoring were applied to ensure a robust and maintainable architecture.
 
 ## Instructions
 This repository has two branches: `main` holds the initial state of the project, and `finished` holds the final state. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
