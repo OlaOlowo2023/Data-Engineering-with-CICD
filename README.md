@@ -1,8 +1,10 @@
 # End-to-End Data Engineering Project
-This is the repository for the LinkedIn Learning course End-to-End Data Engineering Project.
 
-The world of data engineering is ever-changing, with new tools and technologies emerging on a regular basis. Building an effective analytics platform can be a daunting task, especially if you’re not familiar with all the tools available. How do you turn scattered, complex data into a model that drives insights and decision-making?
-In this course, Thalia Barrera teaches data professionals how to implement an end-to-end data engineering project using open tools from the modern data stack. She touches on best practices such as data modeling, testing, documentation and version control and shows you how to efficiently extract, load, and transform data into a unified, analytics-ready format. Thalia shows you how to confidently select and use tools through practical examples—taking you through the construction of a robust data pipeline for a fictional ecommerce company—and how to implement best practices in data engineering.
+This End-to-End Data Engineering Project focuses on designing, building, and deploying a complete data pipeline that transforms raw data into actionable insights. The project covers the full lifecycle of data engineering, including data ingestion, storage, processing, transformation, and visualization.
+
+The pipeline begins with extracting data from diverse sources (e.g., APIs, databases, or files), followed by data cleansing and transformation using tools such as Apache Spark or SQL. Processed data is then loaded into a data warehouse (e.g., Snowflake, BigQuery, or Amazon Redshift) for efficient querying and analytics. Automation and orchestration are implemented using tools like Apache Airflow or Prefect to ensure reliability and scalability.
+
+The final component of the project includes building dashboards or reports using BI tools such as Tableau, Power BI, or Looker to enable stakeholders to make data-driven decisions. Throughout the project, best practices in data modeling, version control, security, and monitoring are applied to ensure a robust and maintainable architecture.
 
 ## Instructions
 This repository has two branches: `main` holds the initial state of the project, and `finished` holds the final state. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
